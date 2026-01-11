@@ -13,6 +13,10 @@ optimizationlevel = 1
 
 turtledata = "turtledata.txt"
 
+
+with open(turtledata, "w") as f:
+    f.write("")
+
 previouspos = None
 
 pendownsaved = False

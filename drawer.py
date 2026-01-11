@@ -9,6 +9,7 @@ turtle.bgcolor("black")
 turtle.pencolor("white")
 turtle.pensize(2)
 turtle.tracer(0)
+turtle.penup()
 
 with open(turtledata, "r") as f:
     for line in f:
